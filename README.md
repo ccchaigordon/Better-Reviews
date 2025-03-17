@@ -1,48 +1,49 @@
-# Astro Starter Kit: Basics
+# Better Reviews <img src="./public/favicon.svg" width="24" height="24">
 
-```sh
-npm create astro@latest -- --template basics
+Better Reviews: a streamlined tool designed to simplify the process of writing and sharing game reviews via predefined options then easily generate and copy formatted text to paste directly into their game reviews on platforms such as Steam.
+
+<img src="./public/readme_screenshot.png"> 
+<img src="./public/steam_screenshot.png">
+
+## Features
+
+- **Predefined Selections**: Choose from a curated list of responses to articulate your opinions on various game aspects efficiently.
+- **Clipboard Functionality**: With a single click, copy your structured review to the clipboard.
+- **Dark Mode**: Toggle between light and dark themes for enhanced usability in any environment.
+- **Responsive Layout**: Ensures a seamless experience across both desktop and mobile devices.
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+This project requires Node.js, npm, and git installed on your machine. To install Node.js and npm, follow the instructions from the [Node.js official website](https://nodejs.org/). To install git, visit the [Git official website](https://git-scm.com/downloads).
+
+### Installation
+
+```bash
+# Clone this repository
+$ git clone https://github.com/ccchaigordon/Better-Reviews.git
+
+# Navigate to the directory
+$ cd Better-Reviews
+
+# Install the dependencies
+$ npm install
+
+# Run the application
+$ npm run dev
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Credits
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+This application uses the following open source packages:
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+- [Node.js](https://nodejs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Font Awesome](https://fontawesome.com/)
 
-## 🚀 Project Structure
+## License
 
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Distributed under the MIT License. See LICENSE file for more information.
