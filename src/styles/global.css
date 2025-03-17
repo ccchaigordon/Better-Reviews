@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+body {
+  font-family: "Poppins";
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  flex: 1 1 auto;
+  width: 375px;
+}

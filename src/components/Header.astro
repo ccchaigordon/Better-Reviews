@@ -1,0 +1,65 @@
+---
+import Rate from "../dynamic/Rate.tsx";
+---
+
+<div
+  class="h-auto flex flex-col mt-12 items-center justify-center dark:bg-black"
+>
+  <div
+    class="w-[85%] flex flex-row h-auto dark:bg-black dark:text-white justify-between"
+  >
+    <div
+      class="flex mr-4 sm:mr-8 items-center justify-center text-xl lg:text-2xl font-bold"
+    >
+      Better Reviews: Review a game within seconds.
+    </div>
+    <div class="flex flex-row gap-3">
+      <a
+        href="https://github.com/ccchaigordon/Better-Review.git"
+        target="_blank"
+        title="View on Github"
+        class="items-center self-center text-[30px] outline-none"
+        ><i class="fa fa-github"></i></a
+      >
+      <div
+        class="flex justify-center items-center rounded-xl md:border-2 border-gray-300 dark:border-gray-700"
+      >
+        <button
+          onclick="(() => document.body.classList.toggle('dark'))()"
+          class="h-10 w-10 rounded-lg p-2 hover:cursor-pointer"
+        >
+          <svg
+            class="fill-none stroke-1 stroke-black block dark:hidden"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+          >
+            <path
+              d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"
+            ></path>
+          </svg>
+          <svg
+            class="fill-yellow-300 hidden dark:block"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+          >
+            <path
+              d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+              fill-rule="evenodd"
+              clip-rule="evenodd"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    class="flex w-[85%] mt-10 text-sm text-gray-600 dark:text-white dark:bg-gray-700 text-justify items-center justify-start rounded-r-lg"
+  >
+    <blockquote class="px-5 py-4 border-l-6 border-gray-300">
+      Developer's note: Got tired of typing out reviews for all my Steam
+      games—it was just endless copy-pasting that felt like a drag. So, here we
+      are! Now, you can just pick your thoughts with a few clicks, copy the
+      formatted text, and slap it right onto your game reviews. Quick, easy, and
+      way more fun.
+    </blockquote>
+  </div>
+</div>
